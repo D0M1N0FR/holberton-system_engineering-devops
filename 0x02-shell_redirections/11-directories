@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lRa | find -type d
+find -mindepth 1 -type d | wc -l
