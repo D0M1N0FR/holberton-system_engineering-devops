@@ -1,2 +1,2 @@
 #!/bin/bash
-find -mindepth -type d | ls -laR
+find -maxdepth 0 -type d | ls -laR
