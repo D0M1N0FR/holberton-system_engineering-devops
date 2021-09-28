@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Ceci est un test" | tr 'N-ZA-Mn-za-m' 'A-Za-z' | echo Prpv rfg ha grfg | tr 'n-za-mN-ZA-M' 'a-zA-Z'
+tr 'N-ZA-Mn-za-m' 'A-Za-z' | tr 'n-za-mN-ZA-M' 'a-zA-Z'
